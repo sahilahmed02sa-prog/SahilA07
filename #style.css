@@ -1,0 +1,94 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbarContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: rgb(21, 43, 60);
+    color: aliceblue;
+}
+
+.logo{
+    font-size: 30px;
+    color: skyblue;
+}
+
+.menu-items{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    justify-content: space-around;
+}
+
+.menu-items a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+.menu-items a:hover{
+    color: skyblue;
+}
+.dropdown-content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+}
+#search{
+    width: 250px;
+    border: none;
+    height: 28px;
+    padding: 10px;
+    border-radius: 10px;
+
+}
+.nav-right{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap:10px;
+    font-size: 20px;
+}
+.nav-right a{
+    text-decoration: none;
+    color: white;
+}
+.nav-right a:hover{
+    color: skyblue;
+}
+.nav-right img{
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.firstContainer{
+    padding: 40px;
+    background-color: rgb(62, 160, 198);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container-content h1{
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+
+.container-content p{
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+
+.container-content button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    font-size: 18px;
+    background-color: yellow;
+
+}
